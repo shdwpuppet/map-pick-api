@@ -1,0 +1,12 @@
+{
+  "name": "map-api-poll",
+  "version": "1.0",
+  "nodecgDependency": ">=0.5.0",
+  "homepage": "",
+  "authors": ["Dr.Shdwpuppet"],
+  "description": "API polling app for map picking",
+  "license": "MIT",
+  "extension": {
+    "path": "map-pick-api.js"
+  }
+}

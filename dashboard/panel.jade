@@ -1,0 +1,30 @@
+.control-group
+    label.control-label API ID
+    .input-group
+        input#api_id.form-control(type='text' placeholder='ID NUM')
+        span.input-group-btn
+          button#map-pick_update.btn.btn-group-xs.btn-default(type="button") Update
+
+.ncg-btn-group
+    .btn-group.btn-group-justified
+        .btn-group.btn-group-xs
+            button#map-pick_start.btn.btn-group-xs.btn-default(type="button") Start Polling
+        .btn-group.btn-group-xs
+            button#map-pick_stop.btn.btn-group-xs.btn-default(type="button") Stop Polling
+
+.ncg-label Blue Team Picks
+    #blue_pick.text-primary
+hr
+
+.ncg-label Blue Team Bans
+    #blue_ban.text-primary
+hr
+
+.ncg-label Red Team Picks
+    #red_pick.text-danger
+hr
+.ncg-label Red Team Bans
+    #red_ban.text-danger
+hr
+.ncg-label Default Pick
+    #default_pick.text-default
