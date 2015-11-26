@@ -1,5 +1,5 @@
 #Map Pick API
-A backend only, automatically updating panel to ingest JSON data from
+A backend only [NodeCG](nodecg.com) bundle to ingest JSON data from
 [TF2 Map Picker](http://tf2atgxl.com/map_pick). This bundle does no display
 on its own, is dependent on a front-end map-pick view. I recommend
 [Erynnb's excellent tf-mapvote](https://github.com/erynnb/tf-mapvote).
